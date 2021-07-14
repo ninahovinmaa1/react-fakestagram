@@ -1,5 +1,8 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -10,16 +13,30 @@ function App() {
            </div>
         </div>
 
+        <div className="row">
+            <div className="col-md-12">
+                 <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                </ul>
+            </div>
+        </div>
+
         <Switch>
+
             <Route path="/about">
-                <h2>This is the fakestagram, full of time-consuming entertainment!</h2>
+                <AboutPage/>
             </Route>
+
             <Route path="/contact">
-                <h2>Contact info here</h2>
+                <ContactPage/>
             </Route>
+
             <Route path="/">
-                <h2>Home</h2>
+                <HomePage/>
             </Route>
+
         </Switch>
     </div>
   );
