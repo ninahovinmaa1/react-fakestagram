@@ -1,24 +1,22 @@
 import React from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+import NavLinkItem from './components/NavLinkItem';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import HomePage from './pages/HomePage';
+import ImageListPage from './pages/ImageListPage';
 
 function App() {
   return (
     <div className="container">
         <div className="row">
-           <div className="col-md-12">
+           <div className="col-md-4">
                 <h1>fakestagram</h1>
            </div>
-        </div>
-
-        <div className="row">
-            <div className="col-md-12">
-                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+            <div className="col-md-8">
+                 <ul className="nav justify-content-end">
+                    <NavLinkItem to="/" text="Instagram" />
+                    <NavLinkItem to="/about" text="About" />
+                    <NavLinkItem to="/contact" text="Contact" />
                 </ul>
             </div>
         </div>
@@ -34,7 +32,7 @@ function App() {
             </Route>
 
             <Route path="/">
-                <HomePage/>
+                <ImageListPage/>
             </Route>
 
         </Switch>
