@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Comments from './Comments';
 
 export default function ImageItem({imageItem}) {
  
@@ -17,10 +18,11 @@ export default function ImageItem({imageItem}) {
       />
       <strong>{imageItem.title}</strong>
       <p>{imageItem.description}</p>
-      <p 
+      <div 
         onClick={handleOnClick}>
         ❤ {likes}
-      </p>
+      </div>
+      <Comments />
     </div>
   )
 }
