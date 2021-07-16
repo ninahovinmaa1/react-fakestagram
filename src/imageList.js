@@ -1,20 +1,20 @@
 const imageList = [ {
   "id": 1233211,
   "likes": 100,
-  "description" : "It is awesome 😉. Ut tempus dolor quis nibh maximus vehicula. Phasellus et varius mi, quis tempor sem. Integer posuere ligula vel lectus cursus hendrerit. Vivamus lacinia interdum ipsum at luctus. Duis et sagittis quam, id mattis lorem. Nunc eget elit tempus, rhoncus arcu eu, cursus ex. Phasellus vitae nibh vitae nisl placerat rhoncus et sit amet orci. Sed euismod ante purus. Aenean neque sem, malesuada a felis at, mattis sagittis risus. Etiam volutpat nibh sapien, a consectetur neque iaculis id. Nullam faucibus rutrum aliquet. Curabitur eget augue metus. Vivamus molestie elit at sapien auctor, eget convallis massa semper. Praesent sem nibh, egestas eu laoreet sed, egestas eu augue.",
-  "imageURL" : "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&h=600&q=80",
-  "title" : "Look at my Code 1"
+  "description" : "This is how the workspace looks like",
+  "imageURL" : "https://images.unsplash.com/photo-1593642532400-2682810df593?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&h=600&q=80",
+  "title" : "Techie"
 }, {
   "id": 1233212,
-  "likes": 321,
-  "description" : "Now that is something to put your eye 👀 on",
-  "imageURL" : "https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&h=600&q=80",
-  "title" : "Front preview of my latest deployment"
+  "likes": 12,
+  "description" : "At the beach with bae. South of France is so amazing!",
+  "imageURL" : "https://images.unsplash.com/photo-1626398836468-c9054b979ad0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&h=600&q=80",
+  "title" : "Beachlife with my love"
 }, {
   "id": 1233213,
   "likes": 32,
   "description" : "Keeping it simple ♥️",
-  "imageURL" : "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&h=600&q=80",
+  "imageURL" : "https://images.unsplash.com/photo-1626334418718-a874df50c253?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&h=600&q=80",
   "title" : "Latest image of my workstation"
 }, {
   "id": 1233214,
