@@ -10,7 +10,7 @@ export default function ImageItem({imageItem}) {
   }
 
   return (
-    <div className="col-md-6">
+    <div className="col-md-6 mb-5">
       <img 
         className="img-fluid" 
         src={imageItem.imageURL} 
