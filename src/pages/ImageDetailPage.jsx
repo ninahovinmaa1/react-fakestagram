@@ -16,11 +16,13 @@ export default function ImageDetailPage(props) {
   
   
   return (
-    <div>
-      <h2>Image Detail Page</h2>
-      {imageData && 
-        <ImageItem imageItem={imageData} />
-      }
-    </div>
+    <>
+      {imageData
+      ?
+      <ImageItem imageItem={imageData} />
+      :
+      <p>Loading...</p>
+      } 
+    </>
   )
 }

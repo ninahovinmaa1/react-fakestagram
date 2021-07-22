@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 import Comments from './Comments';
 
-export default function ImageItem({imageItem}) {
+export default function ImageItem({imageItem, imageIndex}) {
  
   let [likes, setLikes] = useState(imageItem.likes);
 
@@ -11,12 +12,16 @@ export default function ImageItem({imageItem}) {
 
   return (
     <div className="col-md-6 mb-5">
+      
       <img 
         className="img-fluid" 
         src={imageItem.imageURL} 
         alt={imageItem.description}
       />
-      <strong>{imageItem.title}</strong>
+      <Link to={`/fakestagram/${imageIndex}/.json`}>
+        <strong>{imageItem.title}</strong>
+      </Link>
+
       <p>{imageItem.description}</p>
       <div 
         onClick={handleOnClick}>
